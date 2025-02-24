@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Transformer",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/transformer.exe",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}/build/Debug",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "${workspaceFolder}/build/Debug;D:/浏览器下载/libtorch-win-shared-with-deps-debug-2.6.0+cpu/libtorch/lib;${env:PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "logging": {
+        "moduleLoad": true,
+        "trace": true,
+        "engineLogging": true,
+        "programOutput": true,
+        "exceptions": true
+      },
+      "visualizerFile": "${workspaceFolder}/.vscode/torch.natvis",
+      "showDisplayString": true,
+      "preLaunchTask": "Build Debug"
+    }
+  ]
+}

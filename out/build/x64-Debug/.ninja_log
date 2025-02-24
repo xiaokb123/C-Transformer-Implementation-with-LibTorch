@@ -1,0 +1,7 @@
+# ninja log v6
+25	502	7614013077136460	CMakeFiles/transformer.dir/model/print.cpp.obj	9cc8e500cb6220c2
+15	13401	7614013077047561	CMakeFiles/transformer.dir/model/embedding.cpp.obj	4acee8953197b3e1
+11	13567	7614013077000632	CMakeFiles/transformer.dir/model/decoder.cpp.obj	27fa66314553152c
+146	691	7614020550779341	CMakeFiles/transformer.dir/model/print.cpp.obj	3c3465dfa8cdaca8
+138	14573	7614020550689415	CMakeFiles/transformer.dir/model/embedding.cpp.obj	1b43f343e60a076c
+112	14660	7614020550434917	CMakeFiles/transformer.dir/model/decoder.cpp.obj	a48212ac11f9d1a9
